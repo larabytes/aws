@@ -1,0 +1,20 @@
+{
+    "name": "larabytes/aws",
+    "description": "Aws Aggregator for Larabytes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kani Robinson",
+            "email": "me@kanirobinson.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "larabytes/support": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aggregators\\Aws\\": "src/"
+        }
+    }
+}
